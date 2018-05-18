@@ -6,11 +6,11 @@ module.exports = {
     
     dbInstance.register_user([username, password])
       .then((user) => {
-        //console.log(user, " User registered")
+        console.log(user, " User registered")
         //db returns an array of objects
-        //const { id } = user[0].id
-        //req.session.userid = id;
-        res.status(200).send(user[0])
+        const { id } = user[0].id
+        req.session.userid = id;
+        res.status(200).send(id)
       })
       .catch((err) => res.status(500).send(err))
   },

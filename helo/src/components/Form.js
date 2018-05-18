@@ -12,6 +12,7 @@ class Form extends Component {
       img: '',
       content: '',
     }
+    
     this.submitPost = this.submitPost.bind(this)
     this.updateTitle = this.updateTitle.bind(this)
     this.updateImage = this.updateImage.bind(this)
