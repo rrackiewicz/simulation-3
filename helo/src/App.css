@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pink {
+  background: #ff70a6;
+  color: white;
+}
+
+.orange {
+  background: #ff9770;
+  color: white;
+}
+
+.lightorange {
+  background: #ffd670;
+  color: white;
+}
+
+.yellow {
+  background: #e9ff70;
+  color: #333333;
+}
+
+.lightgray {
+  background: #f2f2f2;
+  color: #333333;
+}
+
+.darkgray {
+  background: #403d39;
+  color: white;
+}
+
+.white {
+  background:white;
+  color: #333333;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.card {
+  border-style: none;
+}
+
+.cardInterior{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D5D8DC;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 0px 0px rgba(0,0,0,0.1);
+}
+
+#vertCenter {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexH {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexV {
+  display: flex;
+  flex-direction: column;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jca {
+  justify-content: space-around;
+}
+
+.jcs {
+  justify-content: flex-start;
+}
+
+.jc3 {
+  justify-content: end;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.disabled {
+  opacity: .3 !important;
+}
+
+/* Inputs don't seem to stretch if they are in a parent div */
+
+.pointer {
+  cursor: pointer;
+}
+
+.navContainer {
+  width: 125px;
+}
+
+.navBox {
+  padding: 10px;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.authBox {
+  height: 300px;
+  width: 25%;
+  padding: 30px;
+}
+
+.container {
+  padding: 0px;
+  flex: 1;
+}
+
+.postBox {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.dashBox {
+
+}
+
+.search {
+  width: 500px;
+}
+
+.searchBox {
+  padding: 10px;
+}
+
+label {
+  font-size: .75em;
+  margin-right: 5px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+input {
+  margin-right: 5px;
+}
+
+
